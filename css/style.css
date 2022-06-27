@@ -156,7 +156,8 @@ footer{
     text-align: center;
 }
 .info p {
-    width: 500px;
+    padding: 20px;
+    width: 100%;
 }
 .info img{
     width: 300px;
@@ -166,9 +167,13 @@ footer{
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+    align-items: center;
 }
 .videos > div {
     padding: 50px;
+}
+.videos > div:nth-child(1){
+    width: 100%;
 }
 .videos a{
     text-decoration: none;
@@ -185,8 +190,10 @@ footer{
     .videos {
         flex-direction: row;
     }
-
-    
+    .info p {
+        padding: 20px;
+        width: 500px;
+    }    
     header ul li{
         display: inline-block;
     }
