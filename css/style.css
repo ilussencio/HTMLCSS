@@ -52,6 +52,7 @@ header ul li a:hover{
 }
 
 .topo{
+    padding: 30px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../img/familia.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@ footer{
     }
     .topo{
         margin-top: 150px;
-        background-size: 120%;
+        background-size: auto;
         font-size: large;
         padding: 250px 0px;
     }
@@ -250,6 +251,9 @@ section h2{
     .container {
         width: 1200px;
         margin: auto;
+    }
+    .topo{
+        background-size: 100%;
     }
     .topo > div {
         padding: 10px 200px;
